@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01B4EDC2522E79094BC2C31 /* Pods_Destini_DestiniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDC05229ABD992F4E37A7B8 /* Pods_Destini_DestiniUITests.framework */; };
 		A511A028298A6E37008B83CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A027298A6E37008B83CF /* AppDelegate.swift */; };
 		A511A02A298A6E37008B83CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A029298A6E37008B83CF /* SceneDelegate.swift */; };
 		A511A02C298A6E37008B83CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A02B298A6E37008B83CF /* ViewController.swift */; };
@@ -18,6 +19,10 @@
 		A511A04B298A6E38008B83CF /* DestiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A04A298A6E38008B83CF /* DestiniUITestsLaunchTests.swift */; };
 		A511A05B298A6EFC008B83CF /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A05A298A6EFC008B83CF /* Story.swift */; };
 		A511A05D298A6F16008B83CF /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A05C298A6F16008B83CF /* StoryController.swift */; };
+		A511A060298AE6E5008B83CF /* ButtonsProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A05F298AE6E5008B83CF /* ButtonsProperty.swift */; };
+		A511A062298B9EAF008B83CF /* LabelProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511A061298B9EAF008B83CF /* LabelProperty.swift */; };
+		ABFDE6225A31A6A74F2DF85D /* Pods_DestiniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F402B1CA74D1A8037687A19A /* Pods_DestiniTests.framework */; };
+		E0FDDAA81EFA2BBE09912E44 /* Pods_Destini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2062D29375F6723C2AF2706 /* Pods_Destini.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048B2D8619B3D94C1CB9396C /* Pods-DestiniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DestiniTests.debug.xcconfig"; path = "Target Support Files/Pods-DestiniTests/Pods-DestiniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B0C8D8028ED9188EA7DC08D /* Pods-Destini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Destini.debug.xcconfig"; path = "Target Support Files/Pods-Destini/Pods-Destini.debug.xcconfig"; sourceTree = "<group>"; };
+		445C21C8C71BDFED5628BE90 /* Pods-Destini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Destini.release.xcconfig"; path = "Target Support Files/Pods-Destini/Pods-Destini.release.xcconfig"; sourceTree = "<group>"; };
+		4A5A88AA9507A2E779887BCA /* Pods-Destini-DestiniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Destini-DestiniUITests.debug.xcconfig"; path = "Target Support Files/Pods-Destini-DestiniUITests/Pods-Destini-DestiniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDC05229ABD992F4E37A7B8 /* Pods_Destini_DestiniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Destini_DestiniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE16137D316F7258871CBA /* Pods-DestiniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DestiniTests.release.xcconfig"; path = "Target Support Files/Pods-DestiniTests/Pods-DestiniTests.release.xcconfig"; sourceTree = "<group>"; };
+		7FF54981A7851E900303023A /* Pods-Destini-DestiniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Destini-DestiniUITests.release.xcconfig"; path = "Target Support Files/Pods-Destini-DestiniUITests/Pods-Destini-DestiniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2062D29375F6723C2AF2706 /* Pods_Destini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Destini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511A024298A6E37008B83CF /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511A027298A6E37008B83CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A511A029298A6E37008B83CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +66,9 @@
 		A511A04A298A6E38008B83CF /* DestiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A511A05A298A6EFC008B83CF /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		A511A05C298A6F16008B83CF /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
+		A511A05F298AE6E5008B83CF /* ButtonsProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsProperty.swift; sourceTree = "<group>"; };
+		A511A061298B9EAF008B83CF /* LabelProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelProperty.swift; sourceTree = "<group>"; };
+		F402B1CA74D1A8037687A19A /* Pods_DestiniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DestiniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FDDAA81EFA2BBE09912E44 /* Pods_Destini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFDE6225A31A6A74F2DF85D /* Pods_DestiniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +92,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01B4EDC2522E79094BC2C31 /* Pods_Destini_DestiniUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2506C44A78E3C8B7F748BD39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C8D8028ED9188EA7DC08D /* Pods-Destini.debug.xcconfig */,
+				445C21C8C71BDFED5628BE90 /* Pods-Destini.release.xcconfig */,
+				4A5A88AA9507A2E779887BCA /* Pods-Destini-DestiniUITests.debug.xcconfig */,
+				7FF54981A7851E900303023A /* Pods-Destini-DestiniUITests.release.xcconfig */,
+				048B2D8619B3D94C1CB9396C /* Pods-DestiniTests.debug.xcconfig */,
+				64CE16137D316F7258871CBA /* Pods-DestiniTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A511A01B298A6E37008B83CF = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +120,8 @@
 				A511A03D298A6E38008B83CF /* DestiniTests */,
 				A511A047298A6E38008B83CF /* DestiniUITests */,
 				A511A025298A6E37008B83CF /* Products */,
+				2506C44A78E3C8B7F748BD39 /* Pods */,
+				ADA53E21C246FD7A6B466846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +138,7 @@
 		A511A026298A6E37008B83CF /* Destini */ = {
 			isa = PBXGroup;
 			children = (
+				A511A05E298AE65B008B83CF /* Services */,
 				A511A058298A6E7F008B83CF /* Model */,
 				A511A057298A6E73008B83CF /* View */,
 				A511A059298A6E8B008B83CF /* Controller */,
@@ -157,6 +193,25 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		A511A05E298AE65B008B83CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A511A05F298AE6E5008B83CF /* ButtonsProperty.swift */,
+				A511A061298B9EAF008B83CF /* LabelProperty.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ADA53E21C246FD7A6B466846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2062D29375F6723C2AF2706 /* Pods_Destini.framework */,
+				5FDC05229ABD992F4E37A7B8 /* Pods_Destini_DestiniUITests.framework */,
+				F402B1CA74D1A8037687A19A /* Pods_DestiniTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A511A04E298A6E38008B83CF /* Build configuration list for PBXNativeTarget "Destini" */;
 			buildPhases = (
+				BD68CC0D21AE09CB114029A1 /* [CP] Check Pods Manifest.lock */,
 				A511A020298A6E37008B83CF /* Sources */,
 				A511A021298A6E37008B83CF /* Frameworks */,
 				A511A022298A6E37008B83CF /* Resources */,
+				2093EC350DEE1444089E6F6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A511A051298A6E38008B83CF /* Build configuration list for PBXNativeTarget "DestiniTests" */;
 			buildPhases = (
+				37214E2DB8D1933EA690A7BE /* [CP] Check Pods Manifest.lock */,
 				A511A036298A6E38008B83CF /* Sources */,
 				A511A037298A6E38008B83CF /* Frameworks */,
 				A511A038298A6E38008B83CF /* Resources */,
+				0E6203621ED4DBD991834991 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A511A054298A6E38008B83CF /* Build configuration list for PBXNativeTarget "DestiniUITests" */;
 			buildPhases = (
+				7C65565F9F43DA1D72EF67E8 /* [CP] Check Pods Manifest.lock */,
 				A511A040298A6E38008B83CF /* Sources */,
 				A511A041298A6E38008B83CF /* Frameworks */,
 				A511A042298A6E38008B83CF /* Resources */,
+				6478A9A7EAB6F084F1DA3533 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +344,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E6203621ED4DBD991834991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DestiniTests/Pods-DestiniTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DestiniTests/Pods-DestiniTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DestiniTests/Pods-DestiniTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2093EC350DEE1444089E6F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Destini/Pods-Destini-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Destini/Pods-Destini-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Destini/Pods-Destini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37214E2DB8D1933EA690A7BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DestiniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6478A9A7EAB6F084F1DA3533 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Destini-DestiniUITests/Pods-Destini-DestiniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Destini-DestiniUITests/Pods-Destini-DestiniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Destini-DestiniUITests/Pods-Destini-DestiniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C65565F9F43DA1D72EF67E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Destini-DestiniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD68CC0D21AE09CB114029A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Destini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A511A020298A6E37008B83CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,7 +472,9 @@
 				A511A02C298A6E37008B83CF /* ViewController.swift in Sources */,
 				A511A028298A6E37008B83CF /* AppDelegate.swift in Sources */,
 				A511A05D298A6F16008B83CF /* StoryController.swift in Sources */,
+				A511A062298B9EAF008B83CF /* LabelProperty.swift in Sources */,
 				A511A02A298A6E37008B83CF /* SceneDelegate.swift in Sources */,
+				A511A060298AE6E5008B83CF /* ButtonsProperty.swift in Sources */,
 				A511A05B298A6EFC008B83CF /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +647,7 @@
 		};
 		A511A04F298A6E38008B83CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0C8D8028ED9188EA7DC08D /* Pods-Destini.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +676,7 @@
 		};
 		A511A050298A6E38008B83CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445C21C8C71BDFED5628BE90 /* Pods-Destini.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -520,6 +705,7 @@
 		};
 		A511A052298A6E38008B83CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048B2D8619B3D94C1CB9396C /* Pods-DestiniTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +726,7 @@
 		};
 		A511A053298A6E38008B83CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CE16137D316F7258871CBA /* Pods-DestiniTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,6 +747,7 @@
 		};
 		A511A055298A6E38008B83CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5A88AA9507A2E779887BCA /* Pods-Destini-DestiniUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +766,7 @@
 		};
 		A511A056298A6E38008B83CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF54981A7851E900303023A /* Pods-Destini-DestiniUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
