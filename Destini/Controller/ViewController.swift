@@ -148,6 +148,12 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
+        if storyController.storyNumber == 0 {
+            let alert = UIAlertController(title: "Complete", message: "Your story is complete!", preferredStyle: .alert)
+            let defaultAction = UIAlertAction(title: "Restart", style: .default, handler: nil)
+            alert.addAction(defaultAction)
+            present(alert, animated: true)
+        }
         questionLabel.text = storyController.getText()
         firstButton.setTitle(storyController.getStoryQuestion()[0], for: .normal)
         secondButton.setTitle(storyController.getStoryQuestion()[1], for: .normal)
