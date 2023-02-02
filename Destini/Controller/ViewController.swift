@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     var buttons = ButtonsProperty()
     var labels = LabelProperty()
+    var storyController = StoryController()
     
     //MARK: - UIButtons
     
@@ -23,6 +24,9 @@ class ViewController: UIViewController {
         button.setTitle("Choice one", for: .normal)
         button.titleLabel?.textColor = .white
         button.titleLabel?.font = buttons.buttonFont
+        button.titleLabel?.numberOfLines = 0
+        button.titleLabel?.adjustsFontSizeToFitWidth = true
+        button.titleLabel?.minimumScaleFactor = 0.5
         button.addTarget(self, action: #selector(getAnswerForButtons), for: .touchUpInside)
         
         return button
@@ -34,6 +38,9 @@ class ViewController: UIViewController {
         button.setTitle("Choice two", for: .normal)
         button.titleLabel?.font = buttons.buttonFont
         button.titleLabel?.textColor = .white
+        button.titleLabel?.numberOfLines = 0
+        button.titleLabel?.adjustsFontSizeToFitWidth = true
+        button.titleLabel?.minimumScaleFactor = 0.5
         button.addTarget(self, action: #selector(getAnswerForButtons), for: .touchUpInside)
         return button
     }()
@@ -45,7 +52,7 @@ class ViewController: UIViewController {
         label.font = labels.labelFont
         label.textColor = labels.labelTextColor
         label.numberOfLines = 0
-        label.textAlignment = .center
+        label.textAlignment = .left
         label.adjustsFontSizeToFitWidth = true
         label.minimumScaleFactor = 0.5
         label.text = "Question text."
@@ -90,6 +97,11 @@ class ViewController: UIViewController {
         view.addSubview(backgroundImageView)
         view.addSubview(verticalStackView)
         
+        firstButton.setTitle(storyController.getStoryQuestion()[0], for: .normal)
+        secondButton.setTitle(storyController.getStoryQuestion()[1], for: .normal)
+        
+        questionLabel.text = storyController.getText()
+        
         backgroundImageView.snp.makeConstraints { (make) in
             make.height.equalToSuperview()
             make.width.equalToSuperview().offset(5)
@@ -122,11 +134,23 @@ class ViewController: UIViewController {
             make.centerX.equalTo(verticalStackView)
         }
         
+        
+        
     }
     
     //MARK: - Methods
     
     @objc func getAnswerForButtons(_ sender: UIButton) {
+        guard let choice = sender.titleLabel?.text else {return}
+        storyController.setStory(choice: choice)
+        updateUI()
+        
+    }
+    
+    func updateUI() {
+        questionLabel.text = storyController.getText()
+        firstButton.setTitle(storyController.getStoryQuestion()[0], for: .normal)
+        secondButton.setTitle(storyController.getStoryQuestion()[1], for: .normal)
         
     }
     

@@ -47,4 +47,21 @@ struct StoryController {
                     c2: "End", c2D: 0
                 )
             ]
+    
+    func getStoryQuestion() -> [String] {
+        return [stories[storyNumber].choice1, stories[storyNumber].choice2]
+    }
+    
+    func getText() -> String {
+        return stories[storyNumber].title
+    }
+    
+    mutating func setStory(choice: String) {
+        if choice == stories[storyNumber].choice1 {
+            storyNumber = stories[storyNumber].choice1Destination
+        } else {
+            storyNumber = stories[storyNumber].choice2Destination
+        }
+    }
+    
 }
